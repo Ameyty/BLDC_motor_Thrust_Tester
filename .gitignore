@@ -1,0 +1,29 @@
+# ===== Embedded / Arduino / ESP32 =====
+*.ino.cpp
+*.hex
+*.elf
+*.bin
+*.map
+*.o
+
+# ===== Logs & Data (important for this project) =====
+*.log
+*.csv
+*.txt
+data/
+logs/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Python (if you do plotting / analysis later) =====
+__pycache__/
+*.pyc
+
+# ===== Temporary files =====
+*.tmp
+*.bak
